@@ -1,0 +1,43 @@
+# 🐉 Application Pokémon – GO + PokeAPI
+
+## 📋 Description
+
+Cette application, développée en **Go (Golang)**, permet de **générer dynamiquement une page HTML** affichant les informations d’un Pokémon à partir de son **nom**.  
+Elle interagit avec l’API publique **[PokeAPI](https://pokeapi.co/)** pour récupérer les données en temps réel.
+
+---
+
+## ⚙️ Fonctionnalités
+
+- 🌐 Serveur HTTP en Go (port **8080**)  
+- 🔎 Recherche d’un Pokémon par **nom** (ex : `pikachu`, `bulbasaur`, `charizard`...)  
+- 📄 Génération d’une **page HTML** affichant :
+  - Le nom du Pokémon  
+  - Son image officielle  
+  - Son type  
+  - Ses statistiques principales (HP, Attack, Defense, etc.)  
+
+---
+
+## 🧩 Dépendances
+
+L’application dépend des services suivants :  
+- **[PokeAPI](https://pokeapi.co/)** : pour la récupération des données des Pokémon.  
+- Aucune base de données locale n’est requise.  
+
+---
+
+## 🚀 Lancer l’application
+
+### 1. Prérequis
+
+- Go installé (version **1.18+** recommandée)
+- Connexion Internet (pour accéder à PokeAPI)
+
+### 2. Installation
+
+Clone le projet :
+
+```bash
+git clone https://github.com/ton-utilisateur/ton-projet.git
+cd ton-projet
