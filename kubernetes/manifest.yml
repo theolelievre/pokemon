@@ -22,7 +22,8 @@ spec:
     spec:
       containers:
       - name: quelpoke
-        image: europe-west9-docker.pkg.dev/cs-poc-hpzdycpiqjyvinhrczvlwcn/student-theol/quelpoke@sha256:fedab1685430624d8d274271db9714d9e32a12e42d279087fb3f24c7bf9c88c7
+        image: europe-west9-docker.pkg.dev/cs-poc-hpzdycpiqjyvinhrczvlwcn/student-theol/quelpoke:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 
